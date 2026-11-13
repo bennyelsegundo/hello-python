@@ -1,6 +1,5 @@
 name = input("What is your name? ")
-age = int(input("How old are you? "))
-if age >= 18:
-    print(f"Hey {name}, you're an adult")
-else:
-    print(f"Hey {name}, you,re under 18")
+number = int(input("Pick a number: "))
+print(f"Hey {name}")
+for i in range(number):
+    print(f"Counting: {i + 1}")
